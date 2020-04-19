@@ -137,7 +137,7 @@ public class SFOA1
             seats3--;
     }    
 
-    public static void main()throws IOException
+    public static void main(String argsp[])throws IOException
     {
         int m=1,x=0,n=0; String nam="";
         while(m!=0){         

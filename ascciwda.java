@@ -1,6 +1,6 @@
 public class ascciwda
 {
-    static void main(String args[])
+    public static void main(String args[])
     {
         char c ='1';
         int i=c;

@@ -1,6 +1,6 @@
 public class ascheck
 {
-    public static void main()
+    public static void main(String args[])
     {
        String str2="CmPtr";
         int i,j,x1,x2,l=str2.length();

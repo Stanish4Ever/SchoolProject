@@ -9,7 +9,7 @@ public class Amicable
         c+=i;
         return(c);
     }
-    public static void main()
+    public static void main(String args[])
     {
         int n,n1;
         Scanner as=new Scanner(System.in);

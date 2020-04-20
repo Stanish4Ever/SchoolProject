@@ -24,7 +24,7 @@ public class KARPREKARrec
         if(String.valueOf(n*n).length()%2==1)
         p="0"+p;
         if(Checking(p,(p.length()/2),2)==n)
-        System.out.println("It's an Karprekar No..!"+n);
+        System.out.println("It's an Karprekar No..:"+n);
         else
         System.out.println("Sorry.It's not a karprekar No..!"+n);
     }

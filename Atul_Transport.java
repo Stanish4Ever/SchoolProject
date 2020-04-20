@@ -1,12 +1,12 @@
 import java.util.*;
 public class Atul_Transport
 {
-    public static void main(String args[])
-    {
-        Scanner as=new Scanner(System.in);
+    public static void main(final String args[]) {
+        final Scanner as = new Scanner(System.in);
         char c;
         int kg;
-        double m=0,n;
+        double m = 0;
+        final double n;
         System.out.print("City Code:");
         c=as.next().charAt(0);
         c=Character.toUpperCase(c);

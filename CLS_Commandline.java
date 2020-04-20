@@ -1,9 +1,9 @@
 import java.io.*;
 
-public class bamboo
+public class CLS_Commandline
 {
      
-    static void main()throws IOException, InterruptedException{
+    public static void main(String args[])throws IOException, InterruptedException{
        int l;
        System.out.print("Enter An Awesome Number!:");
        BufferedReader as=new BufferedReader(new InputStreamReader(System.in));

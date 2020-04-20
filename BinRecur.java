@@ -43,7 +43,7 @@ public class BinRecur
     void Display()
     {
         System.out.println("\n\n ~OUTPUT~");
-        search(0,n);
+        search(0,(n-1));
     }
     public static void main(String args[])
     {

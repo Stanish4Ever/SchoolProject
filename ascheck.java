@@ -12,7 +12,7 @@ public class ascheck
                 x2=(int)str2.charAt(j);System.out.println("   "+str2);
                 if(x1>x2)
                 str2=str2.substring(0,i)+str2.charAt(j)+str2.substring((i+1),j)+str2.charAt(i)+str2.substring(j);
-                System.out.println("             "+str2);
+               // System.out.println("             "+str2);
             }
         }
         System.out.println(str2);

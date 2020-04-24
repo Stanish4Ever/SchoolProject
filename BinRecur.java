@@ -1,5 +1,9 @@
- import java.util.*;
-
+/**Search a sorted array by repeatedly dividing the search interval in half.
+ * Begin with an interval covering the whole array. 
+ * If the value of the search key is less than the item in the middle of the interval, narrow the interval to the lower half. 
+ * Otherwise narrow it to the upper half. 
+ * Repeatedly check until the value is found or the interval is empty. */
+import java.util.*;
 public class BinRecur
 {
     int s,n;
@@ -14,8 +18,29 @@ public class BinRecur
         System.out.println("Enter the Integers into the Array:");
         for(int i=0;i<n;i++)
         a[i]=as.nextInt();
-        System.out.println("Enter the Element to be Searched:");
+        sorting();
+        System.out.println("Array after Sorting:");
+        for(int i=0;i<n;i++)
+        System.out.print(a[i]+"  ");
+        System.out.println("\nEnter the Element to be Searched:");
         s=as.nextInt();
+    }
+    void sorting() //BubbleSort
+    {
+    int temp;
+    for (int i=0; i<n; i++)
+      {        
+        for (int j = 1; j <(n - i); j++) {
+
+            if (a[j - 1] > a[j])
+               {
+                temp = a[j - 1];
+                a[j - 1] = a[j];
+                a[j] = temp;
+               }
+
+        }
+      }
     }
     void search(int l, int u)
     {

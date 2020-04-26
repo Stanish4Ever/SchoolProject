@@ -1,4 +1,5 @@
-/**Search a sorted array by repeatedly dividing the search interval in half.
+/** Binary Search using Recursion technique!
+ * Search a sorted array by repeatedly dividing the search interval in half.
  * Begin with an interval covering the whole array. 
  * If the value of the search key is less than the item in the middle of the interval, narrow the interval to the lower half. 
  * Otherwise narrow it to the upper half. 

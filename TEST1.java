@@ -9,12 +9,17 @@ public class TEST1
         y=x*10;
         System.out.println(x+","+y);
     }
-    void main()
+    void art()
     {
         int g = 7;
         func(this.g,g);
         System.out.println(g+","+this.g);
         func(g, this.g);
         System.out.println(g+","+this.g);
+    }
+    public static void main(String args[])
+    {
+        TEST1 as = new TEST1();
+        as.art();
     }
 }
